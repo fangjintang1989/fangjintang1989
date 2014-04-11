@@ -1,13 +1,13 @@
 Pairwise comparisons between testing and other QA alternatives
 
-testing vs defect prevention
-object: code vs implementation
-development activity/phase: testing phase and after vs implementation
-expertise level: low-high vs medium-high
-observation: failures vs errors & error sources
-problem types: dynamic failures & related faults vs systematic errors or conceptual mistakes
-result interpretation: moderate vs intangible
-cost: medium(low-high) vs low
+testing vs defect prevention.
+object: code vs implementation.
+development activity/phase: testing phase and after vs implementation.
+expertise level: low-high vs medium-high.
+observation: failures vs errors & error sources.
+problem types: dynamic failures & related faults vs systematic errors or conceptual mistakes.
+result interpretation: moderate vs intangible.
+cost: medium(low-high) vs low.
  
 testing vs inspection
 object: code vs design,code and other software artifacts
