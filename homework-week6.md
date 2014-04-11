@@ -1,44 +1,46 @@
 Pairwise comparisons between testing and other QA alternatives
 
-Testing
-Important link in dev. process 
-Activities spilt over to other phases
-	OP development, test preparation, etc
-	(partial) code exist before testing 
-Dynamic/run-time/interaction problems
-Medium/low defect situations 
-Techniques and tools 
-Coverage vs. reliability focus 
-Cost: moderate
+testing vs defect prevention
+object: code vs implementation
+development activity/phase: testing phase and after vs implementation
+expertise level: low-high vs medium-high
+observation: failures vs errors & error sources
+problem types: dynamic failures & related faults vs systematic errors or conceptual mistakes
+result interpretation: moderate vs intangible
+cost: medium(low-high) vs low
+ 
+testing vs inspection
+object: code vs design,code and other software artifacts
+development activity/phase: testing phase and after vs all
+expertise level: low-high vs low-medium
+observation: failures vs faults
+problem types: dynamic failures & related faults vs static & localized faults
+result interpretation: moderate vs easy
+cost: medium(low-high) vs low-medium
 
-Defect prevention
-Most effective if causes known Good at pervasive problems Low cost, due to downstream damage
-Issue:up-front cost
+testing vs formal verification
+object: code vs design/code with formal specification
+development activity/phase: testing phase and after vs design/coding
+expertise level: low-high vs high
+observation: failures vs (absence of) faults
+problem types: dynamic failures & related faults vs local faults
+result interpretation: moderate vs hard
+cost: medium(low-high) vs high
 
-Inspection
-Good throughout dev. process 
-Works on many software artifacts 
-Conceptual/static faults High fault density situations
-	non-blocking
-	experience => efficiency improve 
-Human intensive, varied cost
+testing vs fault tolerance
+object: code vs operational software system
+development activity/phase: testing phase and after vs in-field operation
+expertise level: low-high vs high
+observation: failures vs local failures
+problem types: dynamic failures & related faults vs operational failures in small areas
+result interpretation: moderate vs hard
+cost: medium(low-high) vs high
 
-Formal verification
-Positive confirmation/correctness 
-On design/code with formal spec 
-Low/no defect situations 
-Practicality: high cost,benefit
-Human intensive, rigorous training
-(therefore, high up-front cost)
-
-Fault tolerance
-Dynamic problems (must be rare) High cost & reliability (low defect) 
-Technique problems (independent NVP) 
-Process/technology intensive
-
-Failure containment
-Similar to FT above, but even more so 
-Rare conditions related to accidents 
-Extremely high cost => apply only when safety matters 
-Many specialized techniques 
-Process/technology intensive
+testing vs failure containment
+object: code vs system with potential accidents
+development activity/phase: testing phase and after vs in-field operation
+expertise level: low-high vs high
+observation: failures vs accidents
+problem types: dynamic failures & related faults vs accidents and related hazards
+result interpretation: moderate vs hard
+cost: medium(low-high) vs highest
